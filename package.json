@@ -2,7 +2,9 @@
   "name": "affirmations_backend",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start":"nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,12 @@
     "url": "https://github.com/Bhavana-Jami/affirmations_backend/issues"
   },
   "homepage": "https://github.com/Bhavana-Jami/affirmations_backend#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "openai": "^5.20.1"
+  }
 }
